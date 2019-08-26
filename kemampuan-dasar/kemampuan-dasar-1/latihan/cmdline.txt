@@ -1,0 +1,190 @@
+soal no 1
+
+arf@win:/$ ls
+bin    dev   initrd.img      lib64       mnt   root  snap  tmp  vmlinuz
+boot   etc   initrd.img.old  lost+found  opt   run   srv   usr  vmlinuz.old
+cdrom  home  lib             media       proc  sbin  sys   var
+arf@win:/$ ls -al
+total 1992
+drwxr-xr-x  24 root root    4096 Okt 12  2018 .
+drwxr-xr-x  24 root root    4096 Okt 12  2018 ..
+drwxr-xr-x   2 root root    4096 Sep  4  2018 bin
+drwxr-xr-x   3 root root    4096 Okt 12  2018 boot
+drwxr-xr-x   2 root root    4096 Mar  1  2018 cdrom
+drwxr-xr-x  19 root root    4300 Agu 18 17:30 dev
+drwxr-xr-x 143 root root   12288 Okt 12  2018 etc
+drwxr-xr-x   4 root root    4096 Agu 18 17:35 home
+lrwxrwxrwx   1 root root      33 Okt 12  2018 initrd.img -> boot/initrd.img-4.4.0-137-generic
+lrwxrwxrwx   1 root root      33 Sep  4  2018 initrd.img.old -> boot/initrd.img-4.4.0-134-generic
+drwxr-xr-x  23 root root    4096 Mar 19  2018 lib
+drwxr-xr-x   2 root root    4096 Mar  2  2018 lib64
+drwx------   2 root root   16384 Mar  1  2018 lost+found
+drwxr-xr-x   3 root root    4096 Mar  2  2018 media
+drwxr-xr-x   2 root root    4096 Jul 20  2016 mnt
+drwxr-xr-x   5 root root    4096 Mei  5  2018 opt
+dr-xr-xr-x 250 root root       0 Agu 18 17:28 proc
+drwx------  11 root root    4096 Apr  9  2018 root
+drwxr-xr-x  28 root root     880 Agu 18 18:13 run
+drwxr-xr-x   2 root root   12288 Okt 12  2018 sbin
+drwxr-xr-x   2 root root    4096 Sep  4  2018 snap
+drwxr-xr-x   2 root root    4096 Jul 20  2016 srv
+dr-xr-xr-x  13 root root       0 Agu 18 17:28 sys
+drwxrwxrwt  13 root root 1929216 Agu 18 18:10 tmp
+drwxr-xr-x  12 root root    4096 Mar  2  2018 usr
+drwxr-xr-x  15 root root    4096 Apr  8  2018 var
+lrwxrwxrwx   1 root root      30 Okt 12  2018 vmlinuz -> boot/vmlinuz-4.4.0-137-generic
+lrwxrwxrwx   1 root root      30 Sep  4  2018 vmlinuz.old -> boot/vmlinuz-4.4.0-134-generic
+arf@win:/$ cd sys/
+arf@win:/sys$ cat 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/
+ata_device/     firmware/       mmc_host/       scsi_device/
+ata_link/       gpio/           nd/             scsi_disk/
+ata_port/       graphics/       net/            scsi_generic/
+backlight/      hwmon/          pci_bus/        scsi_host/
+bdi/            i2c-adapter/    phy/            sound/
+block/          i2c-dev/        powercap/       spi_master/
+bsg/            ieee80211/      power_supply/   thermal/
+devcoredump/    input/          ppdev/          tpm/
+devfreq/        iommu/          ppp/            tty/
+devfreq-event/  leds/           printer/        vc/
+dma/            mdio_bus/       pwm/            virtio-ports/
+dmi/            mei/            rapidio_port/   vtconsole/
+drm/            mem/            regulator/      watchdog/
+drm_dp_aux_dev/ memstick_host/  rfkill/         wmi/
+extcon/         misc/           rtc/            
+arf@win:/sys$ cat class/misc/
+autofs/             kvm/                psaux/
+cpu_dma_latency/    lightnvm/           rfkill/
+device-mapper/      loop-control/       snapshot/
+ecryptfs/           mcelog/             tun/
+freefall/           memory_bandwidth/   uinput/
+fuse/               microcode/          vga_arbiter/
+hpet/               network_latency/    
+hw_random/          network_throughput/ 
+arf@win:/sys$ cat class/misc/network_
+network_latency/    network_throughput/ 
+arf@win:/sys$ cat class/misc/network_latency/
+dev        power/     subsystem/ uevent     
+arf@win:/sys$ cat class/misc/network_latency/
+dev        power/     subsystem/ uevent     
+arf@win:/sys$ cat class/misc/network_latency/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev b
+block/ bus/   
+arf@win:/sys$ cat class/misc/network_latency/dev b
+block/ bus/   
+arf@win:/sys$ cat class/misc/network_latency/dev b
+block/ bus/   
+arf@win:/sys$ cat class/misc/network_latency/dev b
+block/ bus/   
+arf@win:/sys$ cat class/misc/network_latency/dev b
+block/ bus/   
+arf@win:/sys$ cat class/misc/network_latency/dev block/
+loop0/ loop1/ loop2/ loop3/ loop4/ loop5/ loop6/ loop7/ sda/   
+arf@win:/sys$ cat class/misc/network_latency/dev block/
+loop0/ loop1/ loop2/ loop3/ loop4/ loop5/ loop6/ loop7/ sda/   
+arf@win:/sys$ cat class/misc/network_latency/dev block/
+loop0/ loop1/ loop2/ loop3/ loop4/ loop5/ loop6/ loop7/ sda/   
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop
+loop0/ loop1/ loop2/ loop3/ loop4/ loop5/ loop6/ loop7/ 
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop
+loop0/ loop1/ loop2/ loop3/ loop4/ loop5/ loop6/ loop7/ 
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop
+loop0/ loop1/ loop2/ loop3/ loop4/ loop5/ loop6/ loop7/ 
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop
+loop0/ loop1/ loop2/ loop3/ loop4/ loop5/ loop6/ loop7/ 
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/
+alignment_offset   holders/           range              subsystem/
+bdi/               inflight           removable          trace/
+capability         integrity/         ro                 uevent
+dev                mq/                size               
+discard_alignment  power/             slaves/            
+ext_range          queue/             stat               
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/
+alignment_offset   holders/           range              subsystem/
+bdi/               inflight           removable          trace/
+capability         integrity/         ro                 uevent
+dev                mq/                size               
+discard_alignment  power/             slaves/            
+ext_range          queue/             stat               
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/
+alignment_offset   holders/           range              subsystem/
+bdi/               inflight           removable          trace/
+capability         integrity/         ro                 uevent
+dev                mq/                size               
+discard_alignment  power/             slaves/            
+ext_range          queue/             stat               
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/
+alignment_offset   holders/           range              subsystem/
+bdi/               inflight           removable          trace/
+capability         integrity/         ro                 uevent
+dev                mq/                size               
+discard_alignment  power/             slaves/            
+ext_range          queue/             stat               
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/d
+dev                discard_alignment  
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/d
+dev                discard_alignment  
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/d
+dev                discard_alignment  
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/d
+dev                discard_alignment  
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+10:58
+7:0
+arf@win:/sys$ sudo update
+sudo: unable to resolve host win
+sudo: update: command not found
+arf@win:/sys$ cd 
+arf@win:~$ l
+30 april alfa/       earch php-            praxis/
+abi 12 maret/        examples.desktop      Public/
+AIS/                 full-state-feedback/  robi 12 maret/
+Alfa 16 maret 2018/  installation/         RoboFEI-HT_CBR_LARS_2015-master/
+Arduino/             latianopencr/         Templates/
+catkin_ws/           MEGAsync/             tum_simulator_ws/
+deja-dup/            MEGAsync Downloads/   tum_simulator_ws.tar.gz
+Desktop/             Music/                untitled/
+Documents/           opencv3/              untitled1/
+Downloads/           Pictures/             Videos/
+arf@win:~$ cd Pictures/
+arf@win:~/Pictures$ l
+Screenshot from 2018-04-21 20-02-20.png
+Screenshot from 2019-03-13 10-27-35.png
+arf@win:~/Pictures$ mkdir akd
+arf@win:~/Pictures$ l
+akd/
+Screenshot from 2018-04-21 20-02-20.png
+Screenshot from 2019-03-13 10-27-35.png
+arf@win:~/Pictures$ cd akd/
+arf@win:~/Pictures/akd$ l
+arf@win:~/Pictures/akd$ cd ..
+arf@win:~/Pictures$ rm -r akd/
+arf@win:~/Pictures$ k
+k: command not found
+arf@win:~/Pictures$ l
+Screenshot from 2018-04-21 20-02-20.png
+Screenshot from 2019-03-13 10-27-35.png
+arf@win:~/Pictures$ 
+

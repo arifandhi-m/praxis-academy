@@ -1,0 +1,182 @@
+ev                mq/                size               
+discard_alignment  power/             slaves/            
+ext_range          queue/             stat               
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/d
+dev                discard_alignment  
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/d
+dev                discard_alignment  
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/d
+dev                discard_alignment  
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/d
+dev                discard_alignment  
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+block/      class/      devices/    fs/         kernel/     power/
+bus/        dev/        firmware/   hypervisor/ module/     
+arf@win:/sys$ cat class/misc/network_latency/dev block/loop0/dev 
+10:58
+7:0
+arf@win:/sys$ sudo update
+sudo: unable to resolve host win
+sudo: update: command not found
+arf@win:/sys$ cd 
+arf@win:~$ l
+30 april alfa/       earch php-            praxis/
+abi 12 maret/        examples.desktop      Public/
+AIS/                 full-state-feedback/  robi 12 maret/
+Alfa 16 maret 2018/  installation/         RoboFEI-HT_CBR_LARS_2015-master/
+Arduino/             latianopencr/         Templates/
+catkin_ws/           MEGAsync/             tum_simulator_ws/
+deja-dup/            MEGAsync Downloads/   tum_simulator_ws.tar.gz
+Desktop/             Music/                untitled/
+Documents/           opencv3/              untitled1/
+Downloads/           Pictures/             Videos/
+arf@win:~$ cd Pictures/
+arf@win:~/Pictures$ l
+Screenshot from 2018-04-21 20-02-20.png
+Screenshot from 2019-03-13 10-27-35.png
+arf@win:~/Pictures$ mkdir akd
+arf@win:~/Pictures$ l
+akd/
+Screenshot from 2018-04-21 20-02-20.png
+Screenshot from 2019-03-13 10-27-35.png
+arf@win:~/Pictures$ cd akd/
+arf@win:~/Pictures/akd$ l
+arf@win:~/Pictures/akd$ cd ..
+arf@win:~/Pictures$ rm -r akd/
+arf@win:~/Pictures$ k
+k: command not found
+arf@win:~/Pictures$ l
+Screenshot from 2018-04-21 20-02-20.png
+Screenshot from 2019-03-13 10-27-35.png
+arf@win:~/Pictures$ cd
+arf@win:~$ l
+30 april alfa/       earch php-            praxis/
+abi 12 maret/        examples.desktop      Public/
+AIS/                 full-state-feedback/  robi 12 maret/
+Alfa 16 maret 2018/  installation/         RoboFEI-HT_CBR_LARS_2015-master/
+Arduino/             latianopencr/         Templates/
+catkin_ws/           MEGAsync/             tum_simulator_ws/
+deja-dup/            MEGAsync Downloads/   tum_simulator_ws.tar.gz
+Desktop/             Music/                untitled/
+Documents/           opencv3/              untitled1/
+Downloads/           Pictures/             Videos/
+arf@win:~$ cd praxis/
+arf@win:~/praxis$ l
+kemampuan-dasar-1/
+arf@win:~/praxis$ cd kemampuan-dasar-1/
+arf@win:~/praxis/kemampuan-dasar-1$ l
+latihan/
+arf@win:~/praxis/kemampuan-dasar-1$ cd latihan/
+arf@win:~/praxis/kemampuan-dasar-1/latihan$ l
+cmdline.txt  env.txt  grub.txt  kernel-linux.txt
+arf@win:~/praxis/kemampuan-dasar-1/latihan$ mkdir shellscripts
+arf@win:~/praxis/kemampuan-dasar-1/latihan$ l
+cmdline.txt  env.txt  grub.txt  kernel-linux.txt  shellscripts/
+arf@win:~/praxis/kemampuan-dasar-1/latihan$ cd shellscripts/
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ l
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ $ echo "Hello World"
+$: command not found
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ echo "Hello World"
+Hello World
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano First.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano First.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash First.sh
+Hello World
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ chmod a+x First.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ ./First.sh
+Hello World
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano echo_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash echo_example.sh
+Printing text with newline
+Printing text without newline
+Removing 	 backslash 	 characters
+
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano omment_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash omment_example.sh 60
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano multiline-comment.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash multiline-comment.sh 
+25
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano while_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash while_example.sh 
+1
+2
+3
+4
+5
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ for_example.sh
+for_example.sh: command not found
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano for_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash for_example.sh 
+10 9 8 7 6 5 4 3 2 1 
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano for_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano userinput.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash userinput.sh 
+Enter Your Name
+ujbuo
+Welcome ujbuo to LinuxHint
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano simple_if.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ l
+echo_example.sh  for_example.sh        omment_example.sh  userinput.sh
+First.sh*        multiline-comment.sh  simple_if.sh       while_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ l
+echo_example.sh  for_example.sh        omment_example.sh  userinput.sh
+First.sh*        multiline-comment.sh  simple_if.sh       while_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ $ bash simple_if.sh
+$: command not found
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash simple_if.sh
+It is a two digit number
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano if_with_AND.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash if_with_AND.sh 
+if_with_AND.sh: line 1: !/bin/bash: No such file or directory
+Enter username
+gda
+Enter password
+trhrt
+invalid user
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano if_with_OR.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash if_with_OR.sh
+Enter any number
+31
+You lost the game
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash if_with_OR.sh
+Enter any number
+21
+You lost the game
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash if_with_OR.sh
+Enter any number
+2
+You lost the game
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash if_with_OR.sh
+Enter any number
+742
+You lost the game
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash if_with_OR.sh
+Enter any number
+15
+You won the game
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano elseif_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash elseif_example.sh
+Enter your lucky number
+3
+Sorry, try for the next time
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash elseif_example.sh
+Enter your lucky number
+53
+Sorry, try for the next time
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash elseif_example.sh23
+bash: elseif_example.sh23: No such file or directory
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ nano wait_example.sh
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ bash wait_example.sh
+Wait command
+Exited with status 0
+arf@win:~/praxis/kemampuan-dasar-1/latihan/shellscripts$ 
+

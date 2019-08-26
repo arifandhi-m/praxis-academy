@@ -1,0 +1,22 @@
+Lokasi kernal linux di /boot
+
+versi kernal yg terinstall
+
+linux-image-4.4.0-116-generic			deinstall
+linux-image-4.4.0-119-generic			deinstall
+linux-image-4.4.0-124-generic			deinstall
+linux-image-4.4.0-127-generic			deinstall
+linux-image-4.4.0-130-generic			install
+linux-image-4.4.0-134-generic			install
+linux-image-4.4.0-137-generic			install
+linux-image-4.4.0-31-generic			deinstall
+linux-image-extra-4.4.0-116-generic		deinstall
+linux-image-extra-4.4.0-119-generic		deinstall
+linux-image-extra-4.4.0-124-generic		deinstall
+linux-image-extra-4.4.0-127-generic		deinstall
+linux-image-extra-4.4.0-130-generic		install
+linux-image-extra-4.4.0-134-generic		install
+linux-image-extra-4.4.0-137-generic		install
+linux-image-extra-4.4.0-31-generic		deinstall
+linux-image-generic				install
+
